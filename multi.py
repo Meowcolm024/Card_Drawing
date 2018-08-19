@@ -62,7 +62,6 @@ def start(sh):
 
 def main():
     delay = random.randrange(1, 5)
-    gap = random.uniform(0.5, 1.5)
     x1 = random.randrange(600, 800)
     y1 = random.randrange(600, 800)
     x2 = random.randrange(1300, 1500)
@@ -79,6 +78,7 @@ def main():
         time.sleep(delay)
 
         while lib.ats.screenshot():
+            gap = random.uniform(0.5, 1.5)
             time.sleep(gap)
 
             sh = lib.ats.screenshot()
