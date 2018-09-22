@@ -5,7 +5,7 @@ A card drawing script of Onmyoji
 ## 简单介绍
 
 简单来说这就是一个
-阴阳师自动抽卡脚本
+阴阳师自动抽卡脚本  
 思路介绍：[简书](https://www.jianshu.com/p/b45416bed86f)
 
 single 为单抽  
